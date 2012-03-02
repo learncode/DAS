@@ -1,0 +1,310 @@
+@CHARSET "ISO-8859-1";
+body   
+{
+    background: #fff;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+p 
+{
+margin:4px 0 6px 0;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#e8dba7;/* #1d60ff;*/
+    text-decoration: none;
+    font-weight:bold;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 2.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+ul {
+margin:5px 0 5px 20px;
+padding:0;
+list-style-type:disc;
+}
+
+ol {
+margin:5px 0 5px 30px;
+padding:0;
+list-style-type:decimal;
+}
+
+ul li, ol li {
+margin:0 0 4px 0;
+padding:0;
+}
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+table 
+{
+	font: 1.2em "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+	border-collapse: collapse;
+	width: 320px;
+}
+
+th 
+{
+	padding: 1em;
+	text-align: left;
+}
+
+tr.yellow td 
+{
+	border-top: 1px solid #FB7A31;
+	border-bottom: 1px solid #FB7A31;
+	background: #FFC;
+}
+
+td 
+{
+	border-bottom: 1px solid #CCC;
+	padding: 1em;
+}
+
+td:first-child 
+{
+	width: 190px;
+}
+
+td+td 
+{
+	border-left: 1px solid #CCC;
+	text-align: center;
+}
+
+#mainContainer {
+margin:0 auto;
+padding:0;
+width:900px;
+border:1px solid #454545;
+}
+
+/* << ----------------// Header //---------------->> */
+#header {
+margin:0;
+padding:5px;
+width:890px;
+height:90px;
+color:#ffffff;
+background-color:#2D2D2D;
+}
+
+#sub-header 
+{
+    margin:0px;
+    padding:5px;
+    display:inline;
+    float:right;
+    height:20px;
+}
+
+#sub-header a
+{
+    color: #fff;    
+}
+/* << ----------------// Horizontal navigation //---------------->> */
+#navHorizontal {
+margin:0;
+padding:0;
+width:900;
+height:30px;
+line-height:30px;
+background-color:#4A4A4A;
+}
+
+#navHorizontal ul {
+margin:0 0 0 5px;
+padding:0;
+list-style:none;
+}
+
+#navHorizontal ul li {
+margin:0 0 0 -5px;
+padding:5px 0 5px 0;
+list-style:none;
+display:inline;
+}
+
+#navHorizontal ul li a:link, #navHorizontal ul li a:visited {
+padding:5px 8px 5px 8px;
+color:#eeeeee;
+text-decoration:none;
+border-right:1px solid #999999;
+}
+
+#navHorizontal ul li a:hover, #navHorizontal ul li a:active {
+color:#454545;
+text-decoration:none;
+background-color:#cccccc;
+}
+
+/* << ----------------// Left column //---------------->> */
+#columnOne {
+float:left;
+margin:0;
+padding:0 5px 10px 5px;
+width:190px;
+background-color:#ffffff;
+border-right:solid;
+min-height: 400px;
+}
+
+/*
+#columnOne p, #columnThree p, #columnOne ul li, #columnOne ol li, #columnThree ul li, #columnThree ol li {
+font-size:13px;
+}
+
+#columnOne h2, #columnThree h2 {
+font-size:16px;
+}
+*/
+
+*/
+
+/* << ----------------// Vertical navigation //---------------->> */
+#navVertical {
+margin:0 -5px 0 -5px;
+padding:0;
+width:200px;
+background-color:#454545;
+}
+
+#navVertical ul {
+margin:0 0 0 5px;
+padding:0;
+list-style:none;
+}
+
+#navVertical ul li {
+margin:0 0 0 -5px;
+padding:0;
+list-style:none;
+border-bottom:1px solid #999999;
+}
+
+#navVertical ul li a:link, #navVertical ul li a:visited {
+padding:5px 8px 5px 8px;
+color:#000000;
+text-decoration:none;
+display:block;
+}
+
+#navVertical ul li a:hover, #navVertical ul li a:active {
+color:#454545;
+text-decoration:none;
+background-color:#eeeeee;
+}
+
+/* << ----------------// Middle column //---------------->> */
+#columnTwo {
+float:left;
+margin:0;
+padding:0 5px 10px 5px;
+width:680px;
+color: #000000;
+background-color:#ffffff;
+}
+
+/* << ----------------// Footer //---------------->> */
+#footer {
+margin:0;
+padding:5px 5px 5px 10px;
+width:885px;
+height:20px;
+color:#cccccc;
+background-color:#2d2d2d;
+clear:both;
+}
+
+#footer a:link, #footer a:visited {
+color:#999999;
+text-decoration:none;
+}
+
+#footer a:hover, #footer a:active {
+color:#ffffff;
+text-decoration:underline;
+}
+
+.clearfix:after {
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+/* << ----------------// Fix so that the outer DIV will wrap around all floated DIVs within //---------------->> */
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
